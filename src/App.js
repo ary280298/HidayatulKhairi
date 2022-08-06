@@ -57,7 +57,7 @@ const ListRepo = () => {
             <div className="flex flex-wrap justify-center xl:w-5/12 xs:w-5/12 sm:w-8/12 md:w-8/12 md:mx-auto sm:mx-auto xl:mx-auto">
 
               {
-                (listRepo.length === 0 ? <p>Tidak ada project di dalam username ini</p> :
+                (listRepo.length === 0 ? <p>Tidak ada project di dalam username github!</p> :
                   listRepo.map((cat, key) => {
                     return <div className="p-4 w-full" key={cat.id}>
 
