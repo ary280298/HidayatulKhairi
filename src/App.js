@@ -45,7 +45,7 @@ const ListRepo = () => {
                 name="search-form"
                 id="search-form"
                 className="w-full bg-slate-50 text-dark rounded-md p-3 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary"
-                placeholder="Search by username.. ex: coco"
+                placeholder="Search by username.. ex: khairikiya"
                 onChange={handleChange}
               ></input>
             </div>
