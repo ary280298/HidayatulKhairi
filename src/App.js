@@ -54,7 +54,7 @@ const ListRepo = () => {
         <div className="container mx-auto p-4 bg-slate-50">
 
           <div className="x-4">
-            <div className="flex flex-wrap justify-center xl:w-5/12 xs:w-5/12 sm:w-8/12 md:w-8/12 md:mx-auto sm:mx-auto xl:mx-auto">
+            <div className="flex flex-wrap justify-center xl:w-8/12 xs:w-5/12 sm:w-8/12 md:w-8/12 md:mx-auto sm:mx-auto xl:mx-auto">
 
               {
                 (listRepo.length === 0 ? <p>Tidak ada project di dalam username github!</p> :
